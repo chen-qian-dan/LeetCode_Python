@@ -20,5 +20,4 @@ class Solution:
         return nRet
 
 
-a = Solution()
-print(a.romanToInt("MCMXCIV"))
+
