@@ -27,4 +27,7 @@ class Solution:
         return strR
 
 
-
+# 'a' append means add new things at the end of file.
+# must be lowercase.
+file = open('readme.md', 'a')
+print(file.readable())
