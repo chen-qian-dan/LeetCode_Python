@@ -2,7 +2,7 @@ from _ast import List
 
 
 class Solution:
-    def removeDuplicates(self, nums: List[int]) -> int:
+    def removeDuplicates(self, nums):
         i = 1
         while i < len(nums):
             if nums[i] == nums[i-1]:
