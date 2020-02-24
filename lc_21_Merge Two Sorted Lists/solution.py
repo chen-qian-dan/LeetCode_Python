@@ -49,4 +49,3 @@ l2.next = ListNode(3)
 l2.next.next = ListNode(4)
 
 print(a.mergeTwoLists(l1, l2))
-
